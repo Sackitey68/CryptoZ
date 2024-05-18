@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  /* 
+      i want my default font size to be 10px instead of 16px
+      font-size: 10px; 
+      10px / 16px = 0.625 = 62.5%;
+      percentage of user's browser font-size setting 
+      */
+  font-size: 62.5%;
+  /* background-color: red; */
+}
+
+body {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+/* *******Navigation******** */
+header {
+  height: 8rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.6rem 0rem 1.6rem 0rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo .cryptoz-img {
+  margin-left: 1.6rem;
+}
+.cryptoz-img .crypto-text {
+  font-size: 2.6rem;
+  font-weight: 900;
+}
+.crypto-text span {
+  color: #2752e7;
+}
+.logo img {
+  filter: invert();
+}
+nav .nav-menu {
+  display: flex;
+}
+.nav-menu p {
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+nav .sign-in-get-started {
+  display: flex;
+}
+.sign-in-get-started p {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  align-self: center;
+}
+.get-started {
+  background-color: #2752e7;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+}
+
+/* ******Hero Section****** */
+.hero-section {
+  background: rgb(39, 82, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(39, 82, 231, 1) 0%,
+    rgba(39, 82, 231, 1) 39%,
+    rgba(50, 78, 139, 1) 100%
+  );
+  max-width: 144rem;
+  height: 75.9rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-section .hero-text {
+  margin: 15rem 1rem 0rem 0rem;
+  width: 51rem;
+}
+
+.all-in-one,
+.open-text {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.hero-text .all-in-one {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.hero-text .open-text {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+
+.hero-section .currency-converter {
+  width: 49.1rem;
+  height: 49.1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 9.4rem;
+}
