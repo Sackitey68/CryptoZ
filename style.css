@@ -350,9 +350,11 @@ nav .sign-in-get-started {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  gap: 3.3rem 3rem;
-
- 
+  height: 100rem;
+  width: 100%;
+  gap: 3rem 3.5rem;
+  margin-left: 13rem;
+  padding-top: 15rem;
 }
 
 .portfolio-img {
@@ -360,7 +362,7 @@ nav .sign-in-get-started {
   height: 69.3rem;
   background-color: #091951;
   padding: 3.5rem 2.5rem;
- border-radius: 1%;
+  border-radius: 2rem;
 }
 
 .inner {
@@ -374,12 +376,26 @@ nav .sign-in-get-started {
   line-height: 5rem;
   margin-top: 5rem;
 }
+
 .portfolio-msg {
   color: #fff;
   font-weight: 400;
   font-size: 1.52rem;
   line-height: 2.2rem;
   margin-top: 2.5rem;
+}
+
+.inner-side {
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.first-inner {
+  background: #f3de95;
+}
+
+.second-inner {
+  background-color: #f395d9;
 }
 
 .lighting-fast-img {
@@ -389,4 +405,173 @@ nav .sign-in-get-started {
 
 .security-img {
   grid-area: 2 / 2 / 3 / 5;
+}
+
+.inner-side {
+  display: flex;
+  gap: 4rem;
+}
+
+.grid-header {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.37rem;
+}
+
+.first-h {
+  color: #050e2c;
+}
+
+.second-h {
+  color: #fff;
+}
+
+/* side-element */
+.first-p {
+  color: #050e2c;
+}
+
+.second-p {
+  color: #fff;
+}
+
+.grid-msg {
+  line-height: 2rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.get-started-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  gap: 3rem;
+}
+
+.few-minute,
+.variety {
+  width: 58rem;
+  text-align: center;
+  align-self: center;
+}
+
+.few-minute {
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: #050e2c;
+}
+
+.variety {
+  font-size: 1.8rem;
+  line-height: 2.61rem;
+  color: #050e2cb4;
+}
+.card-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  width: 38.3rem;
+  height: 41.36rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.card-img-container {
+  margin-top: 3rem;
+}
+
+.card-h,
+.card-p {
+  width: 33.5rem;
+  margin: 2rem auto;
+}
+
+.card-h {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #2c3131;
+}
+
+.card-p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #626262;
+}
+
+.testimonial {
+  background-color: #fff;
+  height: 87.4rem;
+}
+
+.testimonial-header {
+  font-size: 5rem;
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.item-1 {
+  grid-area: 1 / 1 / 3 / 2;
+  background-color: red;
+  height: 15rem
+}
+.item-2 {
+  grid-area: 3 / 1 / 4 / 2;
+  background-color: red;
+}
+.item-3 {
+  grid-area: 4 / 1 / 6 / 2;
+  background-color: red;
+}
+.item-4 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: red;
+}
+.item-5 {
+  grid-area: 2 / 2 / 4 / 3;
+  background-color: red;
+}
+.item-6 {
+  grid-area: 4 / 2 / 6 / 3;
+  background-color: red;
+}
+.item-7 {
+  grid-area: 1 / 3 / 3 / 4;
+  background-color: red;
+}
+.item-8 {
+  grid-area: 4 / 3 / 6 / 4;
+  background-color: red;
+}
+.item-9 {
+  grid-area: 1 / 4 / 2 / 5;
+  background-color: red;
+}
+.item-10 {
+  grid-area: 2 / 4 / 4 / 5;
+  background-color: red;
+}
+.item-11 {
+  grid-area: 4 / 4 / 6 / 5;
+  background-color: red;
+}
+.item-12 {
+  grid-area: 2 / 3 / 4 / 4;
+  background-color: red;
 }
