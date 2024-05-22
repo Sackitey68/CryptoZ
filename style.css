@@ -71,6 +71,24 @@ nav .nav-menu {
   color: #2752e7;
 }
 
+/* MOBILE NAV */
+.btn-mobile-nav {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 2.8rem;
+  width: 3rem;
+  color: #000;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;;
+}
+
 nav .sign-in-get-started {
   display: flex;
 }
@@ -679,6 +697,7 @@ nav .sign-in-get-started {
   margin: 0 auto;
   border-radius: 1rem;
   margin-top: 50rem;
+  margin-bottom: 5rem;
 }
 
 .footer-container {

@@ -1,3 +1,84 @@
-@media screen(max-widtj) {
-    
+/* mobile screen */
+
+@media (max-width: 30em) {
+  nav .nav-menu,
+  .sign-in-get-started p {
+    display: none;
+  }
+
+  nav {
+    margin-top: 1rem;
+  }
+
+  .logo img {
+    width: 3rem;
+  }
+
+  .logo .cryptoz-img {
+    margin-left: 0.8rem;
+  }
+
+  .cryptoz-img .crypto-text {
+    font-size: 2.3rem;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    height: 95.6rem;
+  }
+
+  .hero-section .hero-text {
+    margin: 9rem auto;
+    width: 33.7rem;
+  }
+
+  .hero-text .all-in-one {
+    font-size: 3.4rem;
+    line-height: 4rem;
+    text-align: center;
+  }
+
+  .hero-text .open-text {
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-section #email {
+    width: 32.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-section button {
+    width: 32.7rem;
+    background-color: #2752e7;
+    margin: 0 auto;
+    /* margin-bottom: 1rem; */
+  }
+
+  .hero-section .currency-converter {
+    width: 34.3rem;
+    margin: 0 auto;
+    margin-top: -8.5rem;
+  }
+
+  .brand-logo {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
+  .stats {
+  height: 41.4rem;
+  flex-direction: column;
+  }
+
+  .coin-1 img,
+  .coin-2 img {
+    display: none;
+  }
 }
