@@ -86,7 +86,7 @@ nav .nav-menu {
 }
 
 .icon-mobile-nav[name="close-outline"] {
-  display: none;;
+  display: none;
 }
 
 nav .sign-in-get-started {
@@ -122,6 +122,12 @@ nav .sign-in-get-started {
   border-radius: 0.5rem;
   display: flex;
   gap: 3rem;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+  transform: all 10s;
 }
 
 .hero-section .hero-text {
