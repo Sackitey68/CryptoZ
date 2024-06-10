@@ -324,6 +324,11 @@ title button:hover {
   padding-block-start: 0;
 }
 
+/* Disable click events for non list item */
+.currency-list *:not(li) {
+  pointer-events: none;
+}
+
 /* ****currency converter**** */
 .currency-converter .currency-text {
   color: rgba(255, 255, 255, 0.2);
