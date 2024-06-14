@@ -1,6 +1,7 @@
 /* mobile screen */
 
 @media (max-width: 30em) {
+  /* *******Navigation****** */
   nav .nav-menu,
   .sign-in-get-started p {
     display: none;
@@ -28,7 +29,7 @@
 
   .hero-section {
     flex-direction: column;
-    height: 95.6rem;
+    height: 110rem;
   }
 
   .hero-section .hero-text {
@@ -56,15 +57,23 @@
 
   .hero-section button {
     width: 32.7rem;
-    background-color: #2752e7;
     margin: 0 auto;
-    /* margin-bottom: 1rem; */
   }
 
-  .hero-section .currency-converter {
+  /* ******.currency converter ******* */
+  .hero-section .currency-converter,
+  .drawer {
     width: 34.3rem;
     margin: 0 auto;
     margin-top: -8.5rem;
+  }
+
+  .title button {
+    left: -48%;
+  }
+
+  .date input {
+    width: 90%;
   }
 
   .brand-logo {
@@ -73,12 +82,44 @@
   }
 
   .stats {
-  height: 41.4rem;
-  flex-direction: column;
+    height: 41.4rem;
+    flex-direction: column;
   }
 
   .coin-1 img,
   .coin-2 img {
     display: none;
+  }
+
+  .Exchange-rate {
+    margin-bottom: 2rem;
+  }
+
+  /* statistic */
+  .stats {
+    flex-direction: column;
+    width: 36rem;
+    height: 40.7rem;
+    padding: 3rem;
+  }
+
+  .vertical-line {
+    rotate: 90deg;
+    height: 50rem;
+  }
+
+  .num {
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .people-joined {
+    line-height: 2.4rem;
+  }
+
+  .benefit {
+    flex-direction: column-reverse;
+    margin-top: 93rem;
   }
 }
