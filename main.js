@@ -32,6 +32,8 @@ const ui = {
 const btnNav = document.querySelector(".btn-mobile-nav");
 const header = document.querySelector("header");
 const allSections = document.querySelectorAll("section");
+const currencyToggle = document.querySelector(".currency-converter");
+const drawerToggle = document.querySelector(".drawer");
 
 // ****** Event Listeners ******
 const setupEventListeners = () => {
@@ -54,6 +56,8 @@ const showDrawer = (e) => {
   if (e.target.hasAttribute("data-drawer")) {
     state.openedDrawer = e.target.id; // Set opened drawer (base or target)
     ui.drawer.classList.add("show"); // Show drawer
+    currencyToggle.classList.add("hidden");
+    drawerToggle.classList.remove("hide");
   }
 };
 
@@ -62,6 +66,8 @@ const hideDrawer = () => {
   clearSearchInput();
   state.openedDrawer = null; // Reset opened drawer
   ui.drawer.classList.remove("show"); // Hide drawer
+  currencyToggle.classList.remove("hidden");
+  drawerToggle.classList.add("hide");
 };
 
 // Filter currency list based on search input
