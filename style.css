@@ -207,7 +207,6 @@ nav .sign-in-get-started {
   display: flex;
   align-items: center;
   gap: 10px;
-  /* margin-left: 20px; */
 }
 
 .control button::before {
@@ -217,12 +216,6 @@ nav .sign-in-get-started {
   border-radius: 50px;
   background: teal var(--image) center no-repeat;
 }
-
-/* .control button::after {
-  font-family: "Material Symbols Outline";
-  font-size: 2rem;
-  content: '\e313';
-} */
 
 .control button:hover {
   font-weight: 600;
@@ -410,7 +403,9 @@ title button:hover {
 }
 
 .Exchange-rate #exchange-rate {
-  font-size: 1.1rem;
+  display: inline-block;
+  font-size: 1.15rem;
+  padding: 0.5rem;
 }
 
 /* Brand Logo */

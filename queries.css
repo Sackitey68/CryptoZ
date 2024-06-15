@@ -120,6 +120,45 @@
 
   .benefit {
     flex-direction: column-reverse;
-    margin-top: 93rem;
+    margin-top: 40rem;
+    gap: 3rem;
+    width: 39rem;
+  }
+
+  .phone-img img {
+    width: 39rem;
+  }
+
+  .most-trusted {
+    gap: 1rem;
+    width: 39rem;
+    margin-left: -14%;
+  }
+
+  .crypto-currency {
+    font-size: 3.2rem;
+    text-align: center;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .bullet-flex-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .bullet,
+  .bullet-heading {
+    font-size: 2.2rem;
+    line-height: 2.97rem;
+  }
+
+  .cta {
+    margin-top: 5rem;
+  }
+
+  .cta-grid-container {
+    height: 335.0rem;
+    width: 10%;
   }
 }
