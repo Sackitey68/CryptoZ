@@ -294,12 +294,49 @@
   .item-2 {
     width: 25rem;
     height: 28rem;
-    transform: translate(-13rem, -31rem);
+    transform: translate(-13rem, -24rem);
   }
 
   .item-3 {
-    transform: translate(-55rem, -61rem);
+    transform: translate(-55rem, -54rem);
     width: 40rem;
     height: 22rem;
+  }
+
+  .testimonial {
+    height: 35rem;
+  }
+
+  .testimonial-grid {
+    height: 22rem;
+  }
+
+  .banner {
+    margin-top: 12rem;
+    width: 37.5rem;
+    height: 32.8rem;
+  }
+
+  .banner-heading {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.7rem;
+    width: 32.7rem;
+    margin-left: -8%;
+    color: #fff;
+  }
+
+  .banner-get-btn {
+    width: 28rem;
+    margin-top: 2rem;
+  }
+
+  .banner-icons img {
+    display: none;
+  }
+
+  .footer {
+    height: 87.4rem;
+    width: 34.6rem;
   }
 }
