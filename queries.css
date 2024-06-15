@@ -120,7 +120,7 @@
 
   .benefit {
     flex-direction: column-reverse;
-    margin-top: 40rem;
+    margin-top: 38rem;
     gap: 3rem;
     width: 39rem;
   }
@@ -155,10 +155,151 @@
 
   .cta {
     margin-top: 5rem;
+    height: 337rem;
   }
 
   .cta-grid-container {
-    height: 335.0rem;
-    width: 10%;
+    width: 37.5rem;
+    margin-left: 2rem;
+    padding-top: 5rem;
+  }
+
+  .portfolio-img {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 57rem;
+    width: 34.7rem;
+  }
+
+  .inner img {
+    width: 27.3rem;
+    padding-left: 2rem;
+  }
+
+  .portfolio-heading {
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .portfolio-msg {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+
+  .lighting-fast-img {
+    grid-area: 2 / 1 / 3 / 2;
+    width: 34.7rem;
+    height: 59.4rem;
+  }
+
+  .inner-side {
+    flex-direction: column;
+    padding-left: 5rem;
+  }
+
+  .grid-header {
+    font-size: 3.4rem;
+    line-height: 4rem;
+  }
+
+  .first-p {
+    text-align: center;
+  }
+
+  .security-img {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .second-inner {
+    margin-top: -5rem;
+  }
+
+  .second-h {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+
+  .second-p {
+    text-align: center;
+  }
+
+  .get-started-container {
+    margin-top: 80rem;
+  }
+
+  .few-minute,
+  .variety {
+    width: 34rem;
+    text-align: center;
+    align-self: center;
+  }
+
+  .few-minute {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+
+  .variety {
+    line-height: 2.4rem;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 34rem;
+  }
+
+  .card-h,
+  .card-p {
+    width: 30rem;
+  }
+
+  .card-h {
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+  }
+
+  .testimonial-header {
+    font-size: 3.2rem;
+    width: 32.7rem;
+    padding: 0 3rem 0 8rem;
+    text-align: center;
+  }
+
+  .item-4,
+  .item-5,
+  .item-6,
+  .item-7,
+  .item-8,
+  .item-9,
+  .item-10,
+  .item-11,
+  .item-12 {
+    display: none;
+  }
+
+  .item-1 {
+    width: 40rem;
+    height: 22rem;
+    transform: translateX(14rem);
+  }
+
+  .item-2 {
+    width: 25rem;
+    height: 28rem;
+    transform: translate(-13rem, -31rem);
+  }
+
+  .item-3 {
+    transform: translate(-55rem, -61rem);
+    width: 40rem;
+    height: 22rem;
   }
 }
