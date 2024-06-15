@@ -338,5 +338,43 @@
   .footer {
     height: 87.4rem;
     width: 34.6rem;
+    padding-top: 2.5rem;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    padding: 2rem 1.5rem;
+    gap: 0.5rem;
+  }
+
+  .footer-resources {
+    margin-right: 18rem;
+  }
+
+  .footer-hr {
+    margin-top: 3rem;
+    width: 27rem;
+  }
+
+  .footer-last-container .more-crypto {
+    width: 28rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+  }
+
+  .footer-logo img {
+    height: 2rem;
+  }
+
+  .copy-right {
+    width: 20.6rem;
+    text-align: center;
+  }
+
+  .copy-right,
+  .copy-right span a {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
   }
 }
